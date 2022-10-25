@@ -1,0 +1,32 @@
+/*
+ * Color 
+*/
+$primary-color: #c6538c;
+$primary-color2: rgb(32, 28, 247);
+$body-color: #333;
+$headding-color:#0B2B3C;
+$whiteColor:#fff;
+/*
+ * Font 
+*/
+$fontFamilyOswald: 'Oswald', sans-serif;
+$fontFamilyRoboto: 'Roboto', sans-serif;
+
+/*
+ * Font Size
+*/
+$fontsizePrimary : 16px;
+$fontsizeHeadding : 22px;
+$lineHight30: 30px;
+
+body{
+    font-family: $fontFamilyRoboto;
+}
+
+@mixin content-style(){
+    color: $body-color;
+    font-family: $fontFamilyOswald;
+    font-size: $fontsizePrimary;
+    line-height: $lineHight30;
+    margin-bottom: 30px;
+}

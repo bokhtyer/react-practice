@@ -1,0 +1,23 @@
+@import '../../global.scss';
+.home-page {
+    border: 1px solid #ddd;
+    background: #ddd;
+    padding: 30px;
+    h2{
+        font-size: $fontsizeHeadding;
+        color: $headding-color;
+        font-family: $fontFamilyOswald;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    p{
+        @include content-style();
+        font-family: $fontFamilyRoboto;
+    }
+    .button-1 {
+        a{
+            background: $primary-color2;
+            border-color: $primary-color2;
+        }
+    }
+}

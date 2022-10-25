@@ -1,0 +1,13 @@
+@import '../global.scss';
+
+.button-1 {
+    a {
+        color: $whiteColor;
+        border: 1px solid $primary-color;
+        background: $primary-color;
+        padding: 20px 40px;
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
